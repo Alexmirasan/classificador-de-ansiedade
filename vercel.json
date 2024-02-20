@@ -2,27 +2,27 @@
     "version": 2,
     "builds": [
         {
-            "src": "/Principal/**",
+            "src": "/Principal/*",
             "use": "@vercel/static"
         },
         {
-            "src": "/Relaxado/**",
+            "src": "/Relaxado/*",
             "use": "@vercel/static"
         },
         {
-            "src": "/LeveIncomodo/**",
+            "src": "/LeveIncomodo/*",
             "use": "@vercel/static"
         },
         {
-            "src": "/DesconfortoModerado/**",
+            "src": "/DesconfortoModerado/*",
             "use": "@vercel/static"
         },
         {
-            "src": "/DesconfortoSevero/**",
+            "src": "/DesconfortoSevero/*",
             "use": "@vercel/static"
         },
         {
-            "src": "/DesconfortoExtremo/**",
+            "src": "/DesconfortoExtremo/*",
             "use": "@vercel/static"
         }
     ],
