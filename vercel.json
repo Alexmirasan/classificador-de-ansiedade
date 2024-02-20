@@ -1,19 +1,35 @@
 {
-  "version": 2,
-  "builds": [
-    { "src": "/Principal/**", "use": "@vercel/static" },
-    { "src": "/Relaxado/**", "use": "@vercel/static" },
-    { "src": "/LeveIncomodo/**", "use": "@vercel/static" },
-    { "src": "/DesconfortoModerado/**", "use": "@vercel/static" },
-    { "src": "/DesconfortoSevero/**", "use": "@vercel/static" },
-    { "src": "/DesconfortoExtremo/**", "use": "@vercel/static" }
-
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/Principal/$1",
-      "cleanUrls": true
-    }
-  ]
+    "version": 2,
+    "builds": [
+        {
+            "src": "/Principal/**",
+            "use": "@vercel/static"
+        },
+        {
+            "src": "/Relaxado/**",
+            "use": "@vercel/static"
+        },
+        {
+            "src": "/LeveIncomodo/**",
+            "use": "@vercel/static"
+        },
+        {
+            "src": "/DesconfortoModerado/**",
+            "use": "@vercel/static"
+        },
+        {
+            "src": "/DesconfortoSevero/**",
+            "use": "@vercel/static"
+        },
+        {
+            "src": "/DesconfortoExtremo/**",
+            "use": "@vercel/static"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/Principal/$1"
+        }
+    ]
 }
